@@ -10,7 +10,9 @@ class BookScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         title: const Text('zen habits'),
       ),
+      //Se agrega menu tipo Drawer con widget tipo endDrawer que posiciona este menú al final de la screen
       endDrawer: DrawerMenu(),
+      //Se agrega Scrollbar a las vistas screen para poder deslizar la vista de cada pantalla
       body: Scrollbar(
         thumbVisibility: true,
         trackVisibility: true,

@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+//Se agrega menu tipo drawer para acceder a las distintas vistas de la página web
+//Se comentan las lineas Navigator de las vistas no implementadas en este trabajo
+
 class DrawerMenu extends StatelessWidget {
   const DrawerMenu({
     super.key,
@@ -9,7 +12,6 @@ class DrawerMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       child: ListView(
-        // Important: Remove any padding from the ListView.
         padding: EdgeInsets.zero,
         children: [
           ListTile(
@@ -21,19 +23,19 @@ class DrawerMenu extends StatelessWidget {
           ListTile(
             title: const Text('coaching'),
             onTap: () {
-              Navigator.pushReplacementNamed(context, 'coaching');
+              //Navigator.pushReplacementNamed(context, 'coaching');
             },
           ),
           ListTile(
             title: const Text('youtube'),
             onTap: () {
-              Navigator.pushReplacementNamed(context, 'youtube');
+              //Navigator.pushReplacementNamed(context, 'youtube');
             }, 
           ),
           ListTile(
             title: const Text('podcast'),
             onTap: () {
-              Navigator.pushReplacementNamed(context, 'podcast');
+              //Navigator.pushReplacementNamed(context, 'podcast');
             }, 
           ),
           ListTile(
@@ -51,7 +53,7 @@ class DrawerMenu extends StatelessWidget {
           ListTile(
             title: const Text('archive'),
             onTap: () {
-              Navigator.pushReplacementNamed(context, 'archive');
+              //Navigator.pushReplacementNamed(context, 'archive');
             },
           ),
         ],

@@ -10,14 +10,18 @@ class Training extends StatelessWidget {
         backgroundColor: Colors.white,
         title: const Text('zen habits'),
       ),
-      body: const Center(
-        child: Column(
-          children: [
-            ContainerTraining()
-          ],
-        ),
-      ),
       endDrawer: DrawerMenu(),
+      body: Scrollbar(
+        thumbVisibility: true,
+        trackVisibility: true,
+        child: ListView(
+          children: [
+            ContainerTraining(),
+            
+            BottomMenu()
+          ])
+        )
+      
     );
   }
 }
