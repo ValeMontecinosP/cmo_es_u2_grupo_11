@@ -1,0 +1,9 @@
+export 'package:flutter_application_2/screens/error_screen.dart';
+export 'package:flutter_application_2/screens/home_screen.dart';
+export 'package:flutter_application_2/screens/training.dart';
+export 'package:flutter_application_2/screens/coaching.dart';
+export 'package:flutter_application_2/screens/youtube.dart';
+export 'package:flutter_application_2/screens/podcast.dart';
+export 'package:flutter_application_2/screens/books_screen.dart';
+export 'package:flutter_application_2/screens/about.dart';
+export 'package:flutter_application_2/screens/archive.dart';
